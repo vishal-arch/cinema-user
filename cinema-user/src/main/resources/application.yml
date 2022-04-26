@@ -1,6 +1,6 @@
 spring:
   profile:
-    active: {prof:test}
+    active: ${prof:test}
   flyway:
     enabled: true
     currentSchema: user
