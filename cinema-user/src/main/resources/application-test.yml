@@ -1,5 +1,5 @@
 spring:
   datasource:
-    url: jdbc:tc:postgresql:13.2:///tests-db
+    url: jdbc:tc:postgresql:13.2:///test
   flyway:
-    schemas: tests-db
+    schemas: test
