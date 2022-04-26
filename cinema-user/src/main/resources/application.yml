@@ -3,6 +3,7 @@ spring:
     active: {prof:test}
   flyway:
     enabled: true
+    currentSchema: user
   datasource:
     url: jdbc:postgresql://localhost:5432/cinema?currentSchema=user
     username: postgres
