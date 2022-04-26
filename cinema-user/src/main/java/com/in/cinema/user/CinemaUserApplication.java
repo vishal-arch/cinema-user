@@ -9,6 +9,7 @@ public class CinemaUserApplication {
 
 	public static void main(String[] args) {
 
+		System.out.println("Starting");
 		SpringApplication.run(CinemaUserApplication.class, args);
 	}
 
