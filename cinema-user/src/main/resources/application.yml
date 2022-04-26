@@ -1,9 +1,8 @@
 spring:
   profile:
-    active: ${prof:test}
+    active: ${ACTIVE_SPRING_PROFILE:test}
   flyway:
-    enabled: true
-    currentSchema: user
+    schemas: user
   datasource:
     url: jdbc:postgresql://localhost:5432/cinema?currentSchema=user
     username: postgres
